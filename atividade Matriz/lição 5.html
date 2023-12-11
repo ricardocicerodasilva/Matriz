@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz</title>
+    
+    
+   
+</head>
+
+<body>
+   
+    <script>
+       
+        let a = [
+            [23,61,21,3,6,4],
+            [51,0,77,45,43,12],
+            [2,23,0,10,15,11],
+            [14,54,99,654,35,34],
+            [37,5,8,27,77,36]
+        ];
+        let b = [
+            [23,51,2,14,37],
+            [61,0,23,54,5],
+            [22,77,0,99,8],
+            [3,45,10,65,27],
+            [6,43,15,25,77],
+            [4,12,11,34,36]
+        ];
+            
+            
+
+       
+        for (let linha = 0; linha <5; linha++) {
+            for (let coluna = 0; coluna < 6 ; coluna++) {
+                document.write(a [linha][coluna] + "  ");
+            }
+            document.write("<br/>");
+        }
+
+        //somar as linhas
+        for (let slinha = 0; slinha <7; slinha++) {
+            for (let scoluna = 0; scoluna <5; scoluna++) {
+           document.write(b[slinha][scoluna])
+            }
+            document.write( "<br/>")
+         
+        }
+
+
+       /*//somar as colunas
+        for (let scoluna = etado2; scoluna <= stado1; scoluna++) {
+            for (let slinha = 0; slinha<=estado1; slinha++) {
+                somaColuna += (matriz[slinha][scoluna])
+            }
+            document.write("Soma da coluna" + scoluna + ": " + somaColuna + "<br/>")
+            somaColuna = 0;
+        }
+
+
+*/
+
+
+    </script>
+</body>
+
+</html>

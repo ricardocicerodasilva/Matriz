@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz</title>
+</head>
+
+<body>
+
+
+    <script>
+        let meses
+        meses = Number(prompt("DIGITE UM NÚMERO DE 1 A 12"));
+
+         mes =[
+            [1, "JANEIRO", "JAN", "JANUARY"],
+            [2, "FEVEREIRO", "FEV", "FEBRUARY"],
+            [3, " MARÇO", "MAR", "MARCH "],
+            [4, " ABRIL", "ABR", " APRIL"],
+            [5, " MAIO", "MAI", "MAY"],
+            [6, " JUNHO", "JUN", "JUNE"],
+            [7, " JULHO", "JUL", "JULY"],
+            [4, " AGOSTO", "AGO", "AUGUST"],
+            [9, " SETEMBRO", "SET", "SETEMBER"],
+            [10, " OUTUBRO", "OUT", "OCTOBER"],
+            [11, " NOVEMBRO", "NOV", "NOVEMBER"],
+            [12, " DEZEMBRO", "DEZ", "DECEMBER"]
+    ]
+
+        for (let kk = 0; kk < 13; kk++) {
+            if( meses ==kk ) {
+
+                document.write(mes[kk - 1]);
+            }
+        }
+
+    </script>
+</body>
+
+</html>
